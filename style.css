@@ -1,0 +1,48 @@
+body {
+    font-family: "Trebuchet MS",Arial,Helvetica,sans-serif;
+}
+
+h1 {
+    margin-bottom: 15px
+}
+
+h2 {
+    margin-bottom: 10px;
+}
+
+.main {
+    margin-right: 315px;
+}
+
+.desc {
+    font-style: italic; 
+}
+
+.sidebar {
+    float: right;
+    width: 300px;
+}
+
+.blogpost {
+    margin-bottom: 20px;
+}
+
+#container {
+    width: 800px;
+    margin: 10px auto;
+}
+
+#streams {
+    margin-top: 20px;
+}
+
+#name {
+    margin-bottom: 20px;
+    text-align: center;
+}
+
+* {
+    border: 0 none;
+    margin: 0;
+    padding: 0;
+}

@@ -6,35 +6,32 @@
     <title>
       Writer Create
     </title>
+    <link type="text/css" rel="stylesheet" href="style.css"/>
   </head>
   <body>
     <div id="container">
-      <div id="action">
-        Create a new writer
+      <div id="description">
+        <h1>Create a new writer</h1>
       </div>
       <div id="form">
         <table>
-          <tbody>
             <tr>
               <td>
-                <fieldset>
-                  <label for="writername">writer name</label>
+                  <label for="writername">Email : </label>
                   <input id="writername" type="text" maxlength="50" name="writername">
-                </fieldset>
-              </td>
-              <td>
-                <fieldset>
-                  <label for="password">password</label>
-                  <input id="password" type="text" maxlength="50" name="password">
-                </fieldset>
-              </td>
-              <td>
-                <fieldset>
-                  <input id="create" type="button" value="create" name="create">
-                </fieldset>
               </td>
             </tr>
-          </tbody>
+            <tr>
+              <td>
+                  <label for="password">Password : </label>
+                  <input id="password" type="text" maxlength="50" name="password">
+              </td>
+            </tr>
+            <tr>
+              <td>
+                  <input id="create" type="button" value="Create" name="create">
+              </td>
+            </tr>
         </table>
       </div>
     </div>

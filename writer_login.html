@@ -6,35 +6,32 @@
     <title>
       Writer Login
     </title>
+    <link type="text/css" rel="stylesheet" href="style.css"/>
   </head>
   <body>
     <div id="container">
-      <div id="action">
-        Login
+      <div id="description">
+        <h1>Login</h1>
       </div>
       <div id="form">
         <table>
-          <tbody>
             <tr>
               <td>
-                <fieldset>
-                  <label for="writername">writer name</label>
-                  <input id="writername" type="text" maxlength="50" name="writername">
-                </fieldset>
-              </td>
-              <td>
-                <fieldset>
-                  <label for="password">password</label>
-                  <input id="password" type="text" maxlength="50" name="password">
-                </fieldset>
-              </td>
-              <td>
-                <fieldset>
-                  <input id="login" type="button" value="login" name="login">
-                </fieldset>
+                  <label for="writername">Email :</label>
+                  <input id="writername" type="text" maxlength="50" name="writername"/>
               </td>
             </tr>
-          </tbody>
+            <tr>
+              <td>
+                  <label for="password">Password :</label>
+                  <input id="password" type="text" maxlength="50" name="password"/>
+              </td>
+            </tr>
+            <tr>
+              <td>
+                  <input id="login" type="button" value="Login" name="login" align="center"/>
+              </td>
+            </tr>
         </table>
       </div>
     </div>
