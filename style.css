@@ -10,6 +10,11 @@ h2 {
     margin-bottom: 10px;
 }
 
+.entry {
+    text-align: center;
+    margin: 0px auto;
+}
+
 .main {
     margin-right: 315px;
 }
@@ -32,6 +37,10 @@ h2 {
     margin: 10px auto;
 }
 
+table {
+    margin: 0px auto;
+}
+
 #streams {
     margin-top: 20px;
 }
@@ -42,7 +51,6 @@ h2 {
 }
 
 * {
-    border: 0 none;
     margin: 0;
     padding: 0;
 }
