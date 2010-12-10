@@ -32,13 +32,14 @@ h2 {
     margin-bottom: 20px;
 }
 
+.login {
+    margin: 0px auto;
+    text-align: left;
+}
+
 #container {
     width: 800px;
     margin: 10px auto;
-}
-
-table {
-    margin: 0px auto;
 }
 
 #streams {
