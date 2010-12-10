@@ -24,6 +24,12 @@ h2 {
     font-style: italic; 
 }
 
+.ref {
+    font-style: italic; 
+    color: #333333;
+    font-size: 80%;
+}
+
 .sidebar {
     float: right;
     width: 300px;
