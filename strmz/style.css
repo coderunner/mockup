@@ -1,0 +1,64 @@
+body {
+    font-family: "Trebuchet MS",Arial,Helvetica,sans-serif;
+}
+
+h1 {
+    margin-bottom: 15px
+}
+
+h2 {
+    margin-bottom: 10px;
+}
+
+.entry {
+    text-align: center;
+    margin: 0px auto;
+}
+
+.main {
+    margin-right: 315px;
+    padding-right: 10px;
+}
+
+.desc {
+    font-style: italic; 
+}
+
+.ref {
+    font-style: italic; 
+    color: #333333;
+    font-size: 80%;
+}
+
+.sidebar {
+    float: right;
+    width: 300px;
+}
+
+.blogpost {
+    margin-bottom: 20px;
+}
+
+.login {
+    margin: 0px auto;
+    text-align: left;
+}
+
+#container {
+    width: 800px;
+    margin: 10px auto;
+}
+
+#streams {
+    margin-top: 20px;
+}
+
+#name {
+    margin-bottom: 20px;
+    text-align: center;
+}
+
+* {
+    margin: 0;
+    padding: 0;
+}
